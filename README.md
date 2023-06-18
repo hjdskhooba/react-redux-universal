@@ -18,24 +18,24 @@ Note: To make weather page and currency converter work you can register on [weat
 
 # Project Structure
 
-|build/\
-|node_moudles/\
-|public/\
-| |index.html \
-|src/\
-| |__tests__ /\
-| | |setupTests.test.js/\
-| | |...тестовые файлы/\
-| |app/\
-| | |pages/\
-| | |scss/\
-| | |actions/\
-| | |reducers/\
-| | |store.js/\
-| | |API/\
-| | |images/\
-| | |i18n.js/\
-| |index.js
+|build /\
+|node_moudles /\
+|public /\
+|  |index.html \
+|src /\
+|  |__tests__ /\
+|  |  |setupTests.test.js \
+|  |  |...тестовые файлы \
+|  |app /\
+|  |  |pages /\
+|  |  |scss /\
+|  |  |actions /\
+|  |  |reducers /\
+|  |  |store.js\
+|  |  |api /\
+|  |  |images /\
+|  |  |i18n.js \
+|  |index.js
 
 
 Created a project structure based on [this video](https://www.youtube.com/watch?v=TP4RK1OnD_0&list=PLi5fDCkhuN9HzO73bzs_Z917hNtEbE9Vs&index=2)
