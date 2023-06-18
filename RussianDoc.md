@@ -24,35 +24,35 @@ React Redux Universal — это многофункциональное прил
 
 |public/
 
-| index.html
+| |index.html
 
 |src/
 
-| __tests__/
+| |__tests__/
 
-| | setupTests.test.js
+| | |setupTests.test.js
 
-| | ...тестовые файлы
+| | |...тестовые файлы
 
-| app/
+| |app/
 
-| | pages/
+| | |pages/
 
-| | scss/
+| | |scss/
 
-| | actions/
+| | |actions/
 
-| | reducers/
+| | |reducers/
 
-| | store.js
+| | |store.js
 
-| | API/
+| | |API/
 
-| | images/
+| | |images/
 
-| | i18n.js
+| | |i18n.js
 
-| index.js
+| |index.js
 
 Я создал структуру проекта на основе [этого видео](https://www.youtube.com/watch?v=TP4RK1OnD_0&list=PLi5fDCkhuN9HzO73bzs_Z917hNtEbE9Vs&index=2)
 
