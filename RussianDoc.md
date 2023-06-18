@@ -1,4 +1,4 @@
-# Универсальный React Redux
+# React Redux Universal
 
 [Документация на английском](https://github.com/hjdskhooba/react-redux-universal/blob/main/README.md)
 
