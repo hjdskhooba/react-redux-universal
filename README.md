@@ -1,7 +1,8 @@
 # React Redux Universal
 
+[Документация на русском]()
+
 This project was created by - hjdskhooba a.k.a Baki Sultanov a.k.a Sultanov Baigeldy Abdyhasymovich.
-[Документация на русском]
 
 React Redux Universal - is a multi-tool-application created with a lot's of cool technologies, such as - React18, Redux, React-Redux, React-router-dom v5, Connected-react-router, React-hook-form, i18 -next, ramda, Framer-motion, Swiper.js, Scss, Testing-library/react, e.t.c
 
