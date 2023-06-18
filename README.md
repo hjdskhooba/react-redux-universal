@@ -12,7 +12,7 @@ here you can use four tools,/
 Task list, news page, weather page and currency converter/
 All of this tools was created by only using Redux State manager.
 
-Note: To make weather page and currency converter work you can register on weather api website and get your own weather-api-key, then copy-paste it in node_module/api/weather.js, you'll need to do it for currency converter and location.
+Note: To make weather page and currency converter work you can register on [weather api website](https://www.weatherapi.com/) and get your own weather-api-key, then copy-paste it in node_module/api/weather.js, you'll be need to do the same thing for [currency converter](https://apilayer.com/) and [location api](https://www.geoapify.com/).
 
 [See production](https://vercel.com)
 
