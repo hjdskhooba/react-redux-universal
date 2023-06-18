@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+.wrapper{
+  min-height: 120vh;
+  background-color: #23759c;
+}
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  .container {
+    background-image: url("../../images/weather/../../images/weather/background.png");
+    height: 100%;
+    width: 50%;
+    border-radius: 32px;
+  }
+
+  .header-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+  .main-data {
+    height: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .location-input {
+    width: 220px;
+    height: 35px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 8px;
+    border: none;
+  }
+
+  .location-input:focus {
+    outline: solid 1px;
+  }
+
+  .observations {
+    color: #cdcaca;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+
+  .location {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+  }
+
+  .region {
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+
+  .loading {
+    color: white;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .temp {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+  }
+
+  .last-update {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+  .weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .weather-label {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media (max-width: 1700px) {
+    .weather {
+      background-image: url("../../images/weather/background.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+    }
+
+    .container {
+      background: none;
+      margin-top: 40px;
+    }
+
+    .header-input {
+      margin-top: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+
+    .main-data {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+    }
+
+    .location {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .temp {
+      font-size: 46px;
+      text-align: center;
+    }
+  }
+  &.h{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

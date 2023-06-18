@@ -1,0 +1,109 @@
+.latest-news-list {
+  .container {
+    overflow: hidden;
+  }
+  .news-page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .news-card {
+      position: relative;
+      width: 390px;
+      height: 600px;
+      max-height: 600px;
+      margin: 12px 0;
+      .image {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+      }
+      .pull-right {
+        &:nth-child(1) {
+          font-family: sans-serif;
+          font-size: medium;
+        }
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #121221;
+      }
+      &__links {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        height: 100%;
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        height: fit-content;
+      }
+    }
+    @media (max-width: 1330px) {
+      justify-content: left;
+      gap: 22px;
+      .news-card {
+        display: flex;
+        width: fit-content;
+        width: 100%;
+        height: 300px;
+        .image {
+          object-fit: cover;
+          min-width: 600px;
+          max-width: 600px;
+          width: 600px;
+          height: auto;
+          & + div {
+            padding-left: 12px;
+          }
+        }
+        &__links {
+          width: 30%;
+          bottom: -20px;
+        }
+      }
+    }
+    @media (max-width: 1000px) {
+      .news-card {
+        width: 100%;
+        height: auto;
+        display: block;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    @media (max-width: 699px) {
+      .news-card {
+        .image {
+          min-width: auto;
+          width: 100%;
+        }
+        &__links {
+          width: auto;
+          gap: 12px;
+          height: 20px;
+        }
+      }
+    }
+  }
+  .fordf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+  .load-more {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+  }
+  .more-info {
+    cursor: pointer;
+  }
+}
