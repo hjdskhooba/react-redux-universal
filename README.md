@@ -7,9 +7,9 @@ This project was created by - hjdskhooba a.k.a Baki Sultanov a.k.a Sultanov Baig
 React Redux Universal - is a multi-tool-application created with a lot's of cool technologies, such as - React18, Redux, React-Redux, React-router-dom v5, Connected-react-router, React-hook-form, i18 -next, ramda, Framer-motion, Swiper.js, Scss, Testing-library/react, e.t.c
 
 I created this project to improve
-my knowledge of React and Redux,/
-here you can use four tools,/
-Task list, news page, weather page and currency converter/
+my knowledge of React and Redux,\
+here you can use four tools,\
+Task list, news page, weather page and currency converter\
 All of this tools was created by only using Redux State manager.
 
 Note: To make weather page and currency converter work you can register on [weather api website](https://www.weatherapi.com/) and get your own weather-api-key, then copy-paste it in node_module/api/weather.js, you'll be need to do the same thing for [currency converter](https://apilayer.com/) and [location api](https://www.geoapify.com/).
@@ -18,23 +18,23 @@ Note: To make weather page and currency converter work you can register on [weat
 
 # Project Structure
 
-|build /
-|node_moudles /
-|public /
-| |index.html /
-|src /
-| |__tests__ /
-| | |setupTests.test.js /
-| | |...тестовые файлы /
-| |app /
-| | |pages /
-| | |scss /
-| | |actions /
-| | |reducers /
-| | |store.js /
-| | |API /
-| | |images /
-| | |i18n.js /
+|build/\
+|node_moudles/\
+|public/\
+| |index.html \
+|src/\
+| |__tests__ /\
+| | |setupTests.test.js/\
+| | |...тестовые файлы/\
+| |app/\
+| | |pages/\
+| | |scss/\
+| | |actions/\
+| | |reducers/\
+| | |store.js/\
+| | |API/\
+| | |images/\
+| | |i18n.js/\
 | |index.js
 
 
