@@ -1,6 +1,42 @@
-# Getting Started with Create React App
+# React Redux Universal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created by - hjdskhooba a.k.a Baki Sultanov a.k.a Sultanov Baigeldy Abdyhasymovich.
+[Документация на русском]
+
+React Redux Universal - is a multi-tool-application created with a lot's of cool technologies, such as - React18, Redux, React-Redux, React-router-dom v5, Connected-react-router, React-hook-form, i18 -next, ramda, Framer-motion, Swiper.js, Scss, Testing-library/react, e.t.c
+
+I created this project to improve
+my knowledge of React and Redux,/
+here you can use four tools,/
+Task list, news page, weather page and currency converter/
+All of this tools was created by only using Redux State manager.
+
+Note: To make weather page and currency converter work you can register on weather api website and get your own weather-api-key, then copy-paste it in node_module/api/weather.js, you'll need to do it for currency converter and location.
+
+[See production](https://vercel.com)
+
+# Project Structure
+
+|build/
+|node_moudles/
+|public/
+|    index.html
+|src/
+|    __tests__/
+|    |    setupTests.test.js
+|    |    ...test files
+|    app/
+|    |    pages/
+|    |    scss/
+|    |    acions/
+|    |    reducers/
+|    |    store.js
+|    |    api/
+|    |    images/
+|    |    i18n.js
+|    |index.js
+
+Created a project structure based on [this video](https://www.youtube.com/watch?v=TP4RK1OnD_0&list=PLi5fDCkhuN9HzO73bzs_Z917hNtEbE9Vs&index=2)
 
 ## Available Scripts
 
@@ -26,45 +62,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
