@@ -1,6 +1,6 @@
 # React Redux Universal
 
-[Документация на русском]()
+[Документация на русском](https://github.com/hjdskhooba/react-redux-universal/blob/main/RussianDoc.md)
 
 This project was created by - hjdskhooba a.k.a Baki Sultanov a.k.a Sultanov Baigeldy Abdyhasymovich.
 
